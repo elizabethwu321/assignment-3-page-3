@@ -1,10 +1,10 @@
 @font-face {
-	font-family: "ostrich";
-	src: url("fonts/OstrichSans-Heavy.woff2") format("woff2");
+	font-family: "libre";
+	src: url("fonts/LibreBaskerville-Regular.woff2") format("woff2");
 }
 
 h1 {
-	font-family: "ostrich";
+	font-family: "libre";
 	font-size: 45px;
 	color: white;
 	margin: auto;
@@ -12,47 +12,47 @@ h1 {
 }
 
 h2 {
-	font-family: "ostrich";
-	font-size: 28px;
+	font-family: "libre";
+	font-size: 20px;
 	justify-content: center;
-	color: black;
+	color: white;
 	margin: auto;
 	text-align: center;
 }
 
 p {
-	font-family: "ostrich";
-	font-size: 20px;
+	font-family: "libre";
+	font-size: 12px;
 	color: white;
 	margin: auto;
 	text-align: center;
 }
 
 a {
-	color: black;
+	color: white;
 }
 
 .red {
 	width: 680px;
-	height: 1150px;
+	height: 850px;
 	margin: auto;
 }
 
 .pink {
 	width: 130px;
-	height: 1150px;
+	height: 850px;
 	margin: auto;
 }
 
 .yellow {
 	width: 800px;
-	height: 1150px;
+	height: 850px;
 	margin: auto;
 }
 
 .green {
 	width: 70px;
-	height: 1150px;
+	height: 850px;
 	margin: auto;
 }
 
@@ -63,7 +63,7 @@ a {
 }
 
 .pink {
-	background-color: white;
+	background-color: black;
 	margin: auto;
 	align-content: center;
 }
@@ -74,7 +74,7 @@ a {
 }
 
 .green {
-	background-color: white;
+	background-color: black;
 	margin: auto;
 }
 
@@ -86,6 +86,6 @@ a {
 .flex-vertical {
 	display: flex;
 	height: 2000px;
-	flex-direction: row;
+	flex-direction: row-reverse;
 		margin: auto;
 }
